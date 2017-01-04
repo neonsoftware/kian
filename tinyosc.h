@@ -386,7 +386,8 @@ static uint32_t tosc_vwrite(char *buffer, const int len, const char *address, co
 	strcpy(buffer + i, format);
 	i = (i + 4 + s_len) & ~0x3;
 
-	for (int j = 0; format[j] != '\0'; ++j) {
+	int j = 0;
+	for (j = 0; format[j] != '\0'; ++j) {
 		switch (format[j]) {
 		case 'b': {
 			const uint32_t n = (uint32_t)va_arg(ap, int); // length of blob
