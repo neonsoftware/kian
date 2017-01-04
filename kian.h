@@ -15,9 +15,9 @@
  *
  *     You should have received a copy of the GNU General Public License
  *     along with Kian.  If not, see <http://www.gnu.org/licenses/>.
- *  
- *     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
- * 
+ *
+ *     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ *
  *	   Kian - a transport agnostic single header library for OSC over SLIP
  *
  *     Kian helps you easily reading and writing OSC message encoded with SLIP to and from
